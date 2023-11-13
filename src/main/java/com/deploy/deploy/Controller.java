@@ -11,6 +11,6 @@ public class Controller {
     @GetMapping("/hello")
     @CrossOrigin(origins = "*")
     public String getHello(){
-        return "Hello Team";
+        return "Hello Team trust me its working";
     }
 }
